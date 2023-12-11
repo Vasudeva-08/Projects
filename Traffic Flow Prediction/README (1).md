@@ -75,6 +75,6 @@ The XGBoost model is also tuned to get higher accuracy and the corresponding par
 
 The table 7 show the indicate the comparison between the performance of different traffic flow prediction models fitted.  
 
-![](/Images-1/traffic/Screen Shot 2023-12-10 at 10.31.44 PM.png)
+![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/traffic/Screen%20Shot%202023-12-10%20at%2010.31.44%20PM.png)
 
 From the table 7 we can infer the Lasso regression is the least performing model among all. The Ridge and Linear regression models have same R-squared value which tells that both models have almost same prediction accuracy. The Random Forest and XGBoost models are high performing model among all but XGBoost had outperformed random forest model. It has very low MAE(0.2241) , RMSE(0.3368) values and high R-Squared value of 0.9948. XGBoost model is best performing among all the models. 
