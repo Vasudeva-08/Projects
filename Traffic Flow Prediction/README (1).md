@@ -53,12 +53,6 @@ The correlation plot shows that Vehicles Miles Travelled(VMT) and Vehicles Hours
 
 The data must be split into train and test sets to fit the models. The 13 months of traffic flow data for Interstate Freeway 5 has been extracted from PeMS and loaded into Python. The twelve months' data of 2022 is used as training data to capture all traffic flow data for the entire year, including all traffic irregularities on public holidays, and helps to fit a good model. The January 2023 data is used as testing data.
 
-
-## Methodology
-
-Tools like Packages and libraries are handy in Python to perform analysis more efficiently. Many Libraries were used to analyze data and fit the models based on machine learning algorithms. NumPy and Pandas libraries are used to import the dataset and convert the data into a data frame to perform the function on entire columns. Seaborn and Matplotlib libraries are imported to plot the graphs and correlation heatmap. OneHotEncoder library has been imported from the sklearn pre-processing package to execute data transformation operations. Three machine learning algorithms have been chosen for the study and suggest a best-performing model for traffic flow prediction. Regression (Linear, Ridge, Lasso), Random Forest, and Extreme Gradient Boost (XGBoost) are the algorithms used to fit models. 
-
-
 ## Methodology
 
 Tools like Packages and libraries are handy in Python to perform analysis more efficiently. Many Libraries were used to analyze data and fit the models based on machine learning algorithms. NumPy and Pandas libraries are used to import the dataset and convert the data into a data frame to perform the function on entire columns. Seaborn and Matplotlib libraries are imported to plot the graphs and correlation heatmap. OneHotEncoder library has been imported from the sklearn pre-processing package to execute data transformation operations. Three machine learning algorithms have been chosen for the study and suggest a best-performing model for traffic flow prediction. Regression (Linear, Ridge, Lasso), Random Forest, and Extreme Gradient Boost (XGBoost) are the algorithms used to fit models. 
