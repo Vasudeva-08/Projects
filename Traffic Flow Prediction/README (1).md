@@ -45,8 +45,7 @@ The data transformation is the critical step in preparing the data for analysis.
 
 To understand the correlation between all the attributes in the dataset a correlation plot has been plotted. The figure 2 below shows the correlation plot. 
 
-![](/Images-1/traffic
-/Correlation plot.png)
+![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/traffic/Correlation%20plot.png)
 
 The correlation plot shows that Vehicles Miles Travelled(VMT) and Vehicles Hours Travelled (VHT) have a high positive correlation of 0.9. The lane points and month have a positive correlation of 0.5. The %Observed has a negative correlation with the month and lane points. For analysis, the weekdays, i.e., Monday to Sunday, are mapped to numbers from 1 to 7, respectively. To ensure that both vehicle miles travelled (VMT) and vehicle hours travelled (VHT) are on the same scale, we standardize all data using the data rescaling method. Each data point is multiplied by a constant factor. A plot is plotted to determine on which time of the day the traffic flow is high on the I5 freeway. The figure3 below shows the plot, and the highway is the most congested traffic on Friday 3 to 4 pm. 
 
