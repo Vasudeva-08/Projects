@@ -79,4 +79,4 @@ The table 7 show the indicate the comparison between the performance of differen
 
 table 7
 
-From the table 7 we can infer the Lasso regression is the least performing model among all. The Ridge and Linear regression models have same R-squared value which tells that both models have almost same prediction accuracy. The Random Forest and XGBoost models are high performing model among all but XGBoost had outperformed random forest model. It has very low MAE(0.2201) , RMSE(0.3260) values and high R-Squared value of 0.9951. XGBoost model is best performing among all the models. 
+From the table 7 we can infer the Lasso regression is the least performing model among all. The Ridge and Linear regression models have same R-squared value which tells that both models have almost same prediction accuracy. The Random Forest and XGBoost models are high performing model among all but XGBoost had outperformed random forest model. It has very low MAE(0.2241) , RMSE(0.3368) values and high R-Squared value of 0.9948. XGBoost model is best performing among all the models. 
