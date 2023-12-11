@@ -63,7 +63,7 @@ Tools like Packages and libraries are handy in Python to perform analysis more e
 
 The five models are fit by following above methodology  and made predictions based on the training data.  The tabure 7  below show graphs of prediction vs actual values of all the models fitted along with the error. As we observe the line  of predicted value and actual value are almost superimposed because the of the models fitted have high accuracy. From the figure we can observe that error rate is very low for the Random Forest and XGBoost models compared to other models. 
 
-![](/Images-1/traffic/trafic graph.png)
+![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/traffic/trafic%20graph.png)
 
 Initially, λ regularization parameter of ride and lasso regression is assumed to be one. With the help of a library called GridSearchCV from Sklearn, we executed hyperparameter tuning with 10-fold cross-validation. The optimal value λ regularization parameter for both Ridge and Lasso regression are 100 and 0.1, respectively. The hyper parameter tunning has been performed on the random forest model and the optimal values for the parameters has shown in below table 5. 
 
