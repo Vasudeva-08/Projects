@@ -25,25 +25,27 @@ Lane Points: - Lane points describe the various lane configurations at a specifi
 
 The data set has been extracted from the website as a .xlsx file and loaded into python and converted into a data frame. Table 1 below shows the raw dataset description from python. 
 
-paste table 1
+![](/Images-1/traffic/table-1.png)
 
 Table 2 shows the statistical analysis of the dataset. It shows the columns' total number of rows, mean, and standard deviation. It also contains the minimum, maximum, and interquartile values, which explain the spread of the attributes in the dataset. 
 
-paste table 2 
+![](/Images-1/traffic/table-2.png)
 
 ## Data Cleaning
 
 The cleaning of the dataset is one of the essential parts of data analysis to arrive at correct conclusions. The cleaning process involves checking for duplicate and missing values in the dataset and replacing them with appropriate ones. The table 3 below shows the missing values output of the dataset in python.
 
-paste Table 3 
+![](/Images-1/traffic/table-3.png)
 
 ## Data Transformation
 
 The data transformation is the critical step in preparing the data for analysis. It involves many sub-steps like data encoding, data integration, feature extraction, etc. As we can see, the Hour column from the dataset contains Day, month, year, and Time so we need to separate Day and Month and create new columns for the analysis. The data encoding is used to convert the categorical variables into numerical variables. The Table 4 below shows the dataset after all data transformation steps have been performed.
 
-paste table 4
+![](/Images-1/traffic/table-4.png)
 
 To understand the correlation between all the attributes in the dataset a correlation plot has been plotted. The figure 2 below shows the correlation plot. 
+
+![](/Images-1/traffic/Correlation plot.png)
 
 The correlation plot shows that Vehicles Miles Travelled(VMT) and Vehicles Hours Travelled (VHT) have a high positive correlation of 0.9. The lane points and month have a positive correlation of 0.5. The %Observed has a negative correlation with the month and lane points. For analysis, the weekdays, i.e., Monday to Sunday, are mapped to numbers from 1 to 7, respectively. To ensure that both vehicle miles travelled (VMT) and vehicle hours travelled (VHT) are on the same scale, we standardize all data using the data rescaling method. Each data point is multiplied by a constant factor. A plot is plotted to determine on which time of the day the traffic flow is high on the I5 freeway. The figure3 below shows the plot, and the highway is the most congested traffic on Friday 3 to 4 pm. 
 
@@ -66,15 +68,15 @@ Tools like Packages and libraries are handy in Python to perform analysis more e
 
 The five models are fit by following above methodology  and made predictions based on the training data.  The tabure 7  below show graphs of prediction vs actual values of all the models fitted along with the error. As we observe the line  of predicted value and actual value are almost superimposed because the of the models fitted have high accuracy. From the figure we can observe that error rate is very low for the Random Forest and XGBoost models compared to other models. 
 
-figure 7
+![](/Images-1/traffic/trafic graph.png)
 
 Initially, λ regularization parameter of ride and lasso regression is assumed to be one. With the help of a library called GridSearchCV from Sklearn, we executed hyperparameter tuning with 10-fold cross-validation. The optimal value λ regularization parameter for both Ridge and Lasso regression are 100 and 0.1, respectively. The hyper parameter tunning has been performed on the random forest model and the optimal values for the parameters has shown in below table 5. 
 
-Table 5
+![](/Images-1/traffic/table-5.png)
 
 The XGBoost model is also tuned to get higher accuracy and the corresponding parameters are shown in below table 6. The accuracy of the model has been increased from 98.9 to 99.5 percent.
 
-table 6
+![](/Images-1/traffic/table-6.png)
 
 The table 7 show the indicate the comparison between the performance of different traffic flow prediction models fitted.  
 
