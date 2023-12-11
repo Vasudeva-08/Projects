@@ -8,6 +8,7 @@ The data used for the study is collected from the Caltrans Performance Measureme
 ## Data Source
 The data source for this project is extracted from the Caltrans Performance Measurement System(PMS). Caltrans is an organization that monitors California freeways by working with different local cities, tolls, and different public organizations to collect the data like traffic flow, freeway accidents, and vehicle speeds. The Caltrans PeMS has implanted around 40,000 detectors along the freeways of California to collect this information. For this project, we have chosen Interstate Freeway 5 (I5) South, one of California's busiest freeways that extends from Siskiyou County in northern California to San Diego in southern California. The entire twelve months of 2022 are used as training data, and January 2023 data is used for test data. The figure 1 below show the I5 freeway route map. 
 
+![I5 Route](/Images-1/traffic/I5_1.jpg)
 
 ## Exploratory Data Analysis
 The data contains hourly traffic flow on the Interstate 5 freeway collected by the Caltrans PeMS through the detectors. The dataset has five columns, namely, 
