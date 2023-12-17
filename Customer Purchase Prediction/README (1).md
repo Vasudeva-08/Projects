@@ -69,26 +69,31 @@ Random forest algorithm is a supervised learning algorithm which can be used for
 Logistic Regression 
 
 Accuracy for Logistic Regression is 88.8% 
+
 ![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/CPP/LR.png)
 
 Support Vector Machine 
 
 Accuracy of the SVM algorithm is 89.94%. 
+
 ![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/CPP/Svm.png)
 
 K Nearest Neighbors 
 
 Accuracy for KNN algorithm is 89.05% 
+
 ![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/CPP/KNN-0.png)
 
 Naive Bayes 
 
 Accuracy for Naive Bayes algorithm is 80.85% lowest among all the algorithms.
+
 ![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/CPP/NB.png)
 
 Random Forest 
 
 Accuracy for Random forest algorithm is 90.26% highest among all the other algorithms.
+
 ![](https://github.com/Vasudeva-08/Projects/blob/main/Images-1/CPP/RF.png)
 
 The figures shown above depict the outputs of different machine learning algorithms used to classify revenue. Generally, accuracy score is considered to decide the performance of a machine learning algorithm and the model with highest accuracy is selected for prediction.  F1 score could also be taken into consideration as it combines both precision and recall and gives us insight into how data is distributed. It is observed that the Random forest algorithm provides the best prediction accuracy for the test set among all the other algorithms. 
